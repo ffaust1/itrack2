@@ -54,7 +54,7 @@ class CommentSearch extends Comment
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
             'pagination' => [
-                'pageSize' => 7,
+                'pageSize' => 17,
             ],
         ]);
 
